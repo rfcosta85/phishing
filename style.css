@@ -1,0 +1,109 @@
+:root {
+    --dark-background: #181818;
+    --white: #ffffff;
+    --secondary: #02E4C0
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--dark-background);
+    font-family: 'Montserrat', sans-serif;    
+}
+
+/* Header Configuration */
+
+.c-phishing {    
+    width: 1097px;
+    height: 119px;
+    margin: 37px auto;
+}
+
+.c-phishing__nav--logo {
+    margin-right: 127px;
+}
+
+.c-phishing__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    height: 100%;    
+    width: 100%;    
+}
+
+.c-phishing__nav--items {
+    margin: 0 51px 25px 0;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--white);
+}
+
+.c-phishing__nav--icon {
+    margin: 0 30px 25px 0;
+}
+
+.c-phishing-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.c-phishing-title-container__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;   
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--white);
+    width: 80%;    
+}
+
+.secondary {    
+    color: var(--secondary);
+    margin-top: -80px;    
+}
+
+.c-phishing-title-container__img {
+    width: 100%;
+    height: 143px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.c-phishing-title-container__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 30px;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;  
+    color: var(--secondary);
+}
+
+.c-phishing-title-container__sub-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;    
+    text-align: center;
+    letter-spacing: 0.2px;   
+    color: var(--white);
+    margin-bottom: 162px;
+    width: 947px;
+    height: 120px;
+}
+
+
+
