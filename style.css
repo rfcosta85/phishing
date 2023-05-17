@@ -153,7 +153,7 @@ body {
     flex-direction: row;    
     justify-content: center;
     gap: 100px;
-    margin: 68px 198px 150px 198px;
+    margin: 68px 198px 0 198px;
 }
 
 .c-phishing-dicas-container__tips--text-container {
@@ -186,8 +186,138 @@ body {
     color: var(--white);
 }
 
-.text-green {
+.c-phishing-identificar-ataque-titulo {
+    width: 1093px;
+    height: 124px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: var(--white);
+}
+
+.c-phishing-identificando-ataque-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23px;
+    width: 1336px;   
+    margin: 50px 120px;
+}
+
+.c-phishing-identificando-ataque-container__content {
+    display: flex;
+    flex-direction: column;   
+}
+
+.c-phishing-identificando-ataque-sub-container {
+    padding: 40px;
+    border: 1px solid var(--secondary);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 330px;    
+}
+
+.c-phishing-identificando-ataque-container__content--title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
     color: var(--secondary);
 }
 
+.c-phishing-identificando-ataque-container__content--text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: var(--white); 
+    margin: 16px 0;   
+}
 
+.c-phishing-conclusao {
+    width: 1257px;
+    height: 384px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px 160px;
+    gap: 60px;
+}
+
+.c-phishing-conclusao-img > p {
+    width: 400px;
+    height: 384px;
+}
+
+.c-phishing-conclusao-text-container {
+    width: 726px;
+    height: 230px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white);
+}
+
+.c-phishing-conclusao-text-container__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.c-phishing-conclusao-text-container__text {
+    width: 706px;
+    height: 210px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;   
+    letter-spacing: 0.2px;   
+    color: var(--white);
+}
+
+.c-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 20px 0;
+    gap: 21px;
+    width: 100%;
+    height: 254px;
+}
+
+.c-footer__logo--logo > img {
+    width: 140px;
+    height: 61px;
+}
+
+.c-footer__redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.c-footer__logo--icon > img {
+    width: 18px;
+    height: 18px;
+}
+
+.text-green {
+    color: var(--secondary);
+}
