@@ -105,5 +105,89 @@ body {
     height: 120px;
 }
 
+.c-phishing-perigos {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: var(--white);
+}
+
+.c-phishing-dicas-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin: 83px 0 72px 0;
+}
+
+.c-phishing-dicas-container__number {
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 115px;
+        line-height: 144px;   
+        letter-spacing: 1.15px;
+        color: var(--white);
+        border: 2px solid var(--secondary);
+        border-radius: 11px;
+        padding: 5px 35px;
+}
+
+.c-phishing-dicas-container__text {
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 44px;    
+        letter-spacing: 1.15px;
+        color: var(--white);
+        width: 474px;
+        height: 88px;
+}
+
+.c-phishing-dicas-container__tips {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 100px;
+    margin: 68px 198px 150px 198px;
+}
+
+.c-phishing-dicas-container__tips--text-container {
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 25px;   
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: var(--white);        
+}
+
+.c-phishing-dicas-container__tips--text-container > p {
+    border: 2px solid #02E4C0;
+    border-radius: 11px;
+    padding: 15px 200px;
+}
+
+.c-phishing-dicas-container__phishing-introduction {
+    margin-top: 32px;
+    width: 447px;
+    height: 649px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: var(--white);
+}
+
+.text-green {
+    color: var(--secondary);
+}
 
 
