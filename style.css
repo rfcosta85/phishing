@@ -16,8 +16,10 @@ body {
 .c-phishing {    
     width: 1097px;
     height: 119px;
-    margin: 37px auto;
+    margin: 37px auto;  
+        
 }
+
 
 .c-phishing__nav--logo {
     margin-right: 127px;
@@ -139,8 +141,8 @@ body {
 .c-phishing-dicas-container__text {
     font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 400;
-        font-size: 38px;
+        font-weight: 600;
+        font-size: 50px;
         line-height: 44px;    
         letter-spacing: 1.15px;
         color: var(--white);
@@ -324,8 +326,83 @@ body {
     border: 2px solid var(--secondary);
     border-radius: 11px;
     padding: 2px;
+    margin-bottom: 100px;
 }
 
 .text-green {
     color: var(--secondary);
+}
+
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+    .c-phishing {
+        margin: 37px;
+    }
+
+    .c-phishing-title-container__img > img, .c-phishing-title-container__sub-text {
+        width: 90%;
+    }
+
+    .c-phishing-perigos {
+        text-align: center;
+    }
+
+    .c-phishing-dicas-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .c-phishing-dicas-container__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .c-phishing-dicas-container__tips {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .c-phishing-dicas-container__phishing-introduction {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;        
+    }    
+
+    .c-phishing-identificar-ataque-titulo {
+        width: 90%;
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .c-phishing-identificando-ataque-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;        
+    }
+
+    .c-phishing-conclusao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .c-phishing-conclusao-text-container__title, .c-phishing-conclusao-text-container__text {
+       text-align: center;
+    }
+
+    .c-phishing-conclusao-img > p {
+        width: 200px;
+        height: 184px;
+    }
+
+    .c-footer {
+        margin-top: 300px;
+    }
 }
