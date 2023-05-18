@@ -336,9 +336,10 @@ body {
 
 /* Tablet */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {    
     .c-phishing {
         margin: 37px;
+        max-width: 90%;
     }
 
     .c-phishing-title-container__img > img, .c-phishing-title-container__sub-text {
@@ -404,5 +405,58 @@ body {
 
     .c-footer {
         margin-top: 300px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {    
+    .c-phishing {
+        max-width: -5%;
+    }
+    .c-phishing__nav--icon {
+        display: none;
+    }    
+    .c-phishing-title-container__title, .c-phishing-perigos {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;      
+    }
+
+    .c-phishing-dicas-container__text {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }    
+
+    .c-phishing-dicas-container__tips--text-container > p {
+        padding: 20px 90px;
+    }
+
+    .c-phishing-conclusao-img > img {
+        width: 250px;
+        height: 250px;
+    } 
+    
+    .c-phishing-identificar-ataque-titulo {
+        margin-top: 50px;
+    }
+
+    .c-phishing-identificando-ataque-container {
+        margin-top: 300px;
+    }
+
+    .c-phishing-identificando-ataque-sub-container {
+        padding: 20px;
+    }
+
+    .c-phishing-conclusao-text-container {
+       width: 70%;
+       text-align: center
+    }  
+    
+    .c-phishing-conclusao-text-container__text {
+        width: 100%;
+        text-align: center;
     }
 }
