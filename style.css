@@ -411,9 +411,7 @@ body {
 /* Mobile */
 
 @media screen and (max-width: 767px) {    
-    .c-phishing {
-        max-width: -5%;
-    }
+    
     .c-phishing__nav--icon {
         display: none;
     }    
@@ -459,4 +457,21 @@ body {
         width: 100%;
         text-align: center;
     }
+
+    .c-footer {
+        margin-top: 390px;
+    }
 }
+
+/* Mobile M */
+
+@media screen and (max-width: 375px) {
+    .c-phishing-identificando-ataque-sub-container {
+        padding: 6px;
+    }
+
+    .c-footer {
+        margin-top: 430px;
+    }
+}
+
